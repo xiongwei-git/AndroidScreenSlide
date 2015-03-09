@@ -15,11 +15,23 @@
   -->
 
 <resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
     <style name="DarkTheme" parent="android:Theme.Holo">
         <item name="android:actionBarStyle">@style/DarkActionBar</item>
     </style>
 
     <style name="DarkActionBar" parent="android:Widget.Holo.ActionBar">
         <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="SlideTheme" parent="android:Theme.NoTitleBar.Fullscreen">
     </style>
 </resources>

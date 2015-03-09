@@ -25,6 +25,7 @@
     <string name="title_layout_changes">Layout Changes</string>
     <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
         Ipsum</string>
+    <string name="title_advanced_screen_slide">Advanced Screen Slide</string>
 
     <!-- Actions -->
     <string name="action_toggle">Toggle indicator</string>

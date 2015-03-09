@@ -1,0 +1,39 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    <github.chenupt.springindicator.SpringIndicator
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_alignParentBottom="true"
+            app:siTextSize="18sp"
+            app:siIndicatorColors="@array/indicator_colors"
+            app:siTextColor="@color/colorPrimaryDark"
+            app:siSelectedTextColor="@android:color/white"
+            app:siIndicatorColor="@color/colorPrimary"
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"/>
+</RelativeLayout>

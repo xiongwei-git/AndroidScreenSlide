@@ -66,6 +66,11 @@
                 android:value=".MainActivity" />
         </activity>
 
+        <activity android:name=".AdvancedScreenSlideActivity"
+                  android:theme="@style/SlideTheme"
+                  android:label="@string/title_advanced_screen_slide"> />
+        </activity>
+
         <activity android:name=".ZoomActivity"
             android:label="@string/title_zoom"
             android:parentActivityName=".MainActivity">
